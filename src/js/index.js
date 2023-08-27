@@ -62,6 +62,7 @@ function onClick(event) {
       Notiflix.Notify.failure(
         'Oops! Something went wrong! Try reloading the page!'
       );
+      elements.catInfoDiv.innerHTML = '';
     });
 }
 
